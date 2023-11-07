@@ -3,7 +3,7 @@ variable "juju_password" {
   sensitive = true
 }
 
-variable "juju_ca_cert" {
+variable "juju_ca_certificate" {
   type = string
 }
 
