@@ -1,4 +1,4 @@
-provider juju {}
+provider "juju" {}
 
 resource "juju_model" "development" {
   name = "development"
